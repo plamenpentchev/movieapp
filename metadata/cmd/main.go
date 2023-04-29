@@ -19,7 +19,7 @@ const serviceName = "metadata"
 
 func main() {
 	var port int
-	// read port number from arguments
+	// read port  TEST number from arguments
 	flag.IntVar(&port, "port", 8081, "API handler port")
 	flag.Parse()
 
